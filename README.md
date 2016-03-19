@@ -3,7 +3,7 @@ A location finder when nature calls you
 
 Loo-Fi is an unique application with a purpose of improving cleanliness and keeping India hygenic while providing better access to public toilets. We have built a very simple application where the app will navigate the user to the nearby public loo. And if the user finds that the loo is not maintained, they can immediately report it through the app and concerned persons will be notified through SMS and email.
 
-** Technologies and Frameworks used **
+# Technologies and Frameworks used 
 Android,
 Google maps,
 Php Laravel,
