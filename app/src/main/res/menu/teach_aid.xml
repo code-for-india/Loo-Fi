@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.droidboosters.teachaids.TeachAIDSActivity" >
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/action_report"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Report"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_english"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/english"/>
+    <item
+        android:id="@+id/action_hindi"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/hindi"/>
+    <item
+        android:id="@+id/action_tamil"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/tamil"/>
+
+    <item
+        android:id="@+id/action_gujarati"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/gujarati"/>
+
+</menu>

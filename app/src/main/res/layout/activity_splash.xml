@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/background_iamge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+
+            android:scaleType="centerCrop"
+            android:src="@drawable/loofi_splash" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#44000000"
+            />
+
+
+
+
+
+        <ImageView
+            android:id="@+id/applogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/web_hi_res_512"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="60dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Loo-Fi"
+            android:textSize="60sp"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="center_horizontal"
+
+            android:textColor="@color/white_color"
+            android:layout_height="wrap_content" />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_height="match_parent">
+
+
+
+
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="10sp"
+        android:textColor="@color/white_color"
+        android:text="www.GazeMatic.com"
+        />
+
+</RelativeLayout>
